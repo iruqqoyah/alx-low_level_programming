@@ -6,6 +6,8 @@
 *
 * Return: 1 if error, otherwise 0
 */
+
+ont main(void)
 {
 	/*hello printf*/
 	printf("with proper grammar, but the outcome is a piece of art,\n");
