@@ -16,11 +16,11 @@ int main(void)
 	float f;
 
 	printf("Size of a char: %zu", sizeof(g));
-	printf("Size of a int: %zu", sizeof(a));
-	printf("Size of a double: %zu", sizeof(b));
-	printf("Size of a long int: %zu", sizeof(c));
-	printf("Size of a long long int: %zu", sizeof(d));
-	printf("Size of a float: %zu", sizeof(f));
+	printf("\nSize of a int: %zu", sizeof(a));
+	printf("\nSize of a double: %zu", sizeof(b));
+	printf("\nSize of a long int: %zu", sizeof(c));
+	printf("\nSize of a long long int: %zu", sizeof(d));
+	printf("\nSize of a float: %zu", sizeof(f));
 
 	return (0);
 }
