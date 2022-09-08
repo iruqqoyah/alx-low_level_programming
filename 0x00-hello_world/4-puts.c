@@ -12,7 +12,7 @@
 
 int main(void)
 {
-	//hello world
-	puts("\"Programming is like building a multilingual puzzle");
+	/*hello world*/
+	puts("Programming is like building a multilingual puzzle\n");
 	return (0);
 }
