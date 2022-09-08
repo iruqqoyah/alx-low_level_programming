@@ -5,7 +5,7 @@
 *
 * Description: detail of your code
 *
-* Rif error, otherwise 0
+* Return: 1 if error, otherwise 0
 */
 int main(void)
 {
