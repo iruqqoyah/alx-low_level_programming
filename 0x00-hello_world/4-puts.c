@@ -11,8 +11,6 @@
 int main(void)
 {
 	/*this is for test*/
-	char var1[] = "\nProgramming is like building a multilingual puzzle";
-
-	puts(var1);
+	puts("\nProgramming is like building a multilingual puzzle");
 	return (0);
 }
