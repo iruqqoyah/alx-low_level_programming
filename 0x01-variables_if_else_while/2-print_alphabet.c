@@ -14,7 +14,7 @@ int main()
 
 	for (alphabeth = 'a' ; alphabeth <= 'z' ; alphabeth++)
 	{
-		puthchar(alphabeth);
+		putchar(alphabeth);
 	}
 
 	return (0);
