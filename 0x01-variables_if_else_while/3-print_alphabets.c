@@ -17,12 +17,12 @@ int main(void)
 	for (upper = 'a' ; upper <= 'z' ; upper++)
 	{
 		putchar(upper);
-		return (0);
 	}
 	for (lower = 'A' ; lower <= 'Z' ; lower++)
 	{	
 		putchar(lower);
 		putchar('\n');
-		return (0);
+		getch();
 	}
+		return (0);
 }
