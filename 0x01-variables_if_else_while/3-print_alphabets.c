@@ -22,7 +22,6 @@ int main(void)
 	{	
 		putchar(lower);
 		putchar('\n');
-		getch();
 	}
 		return (0);
 }
