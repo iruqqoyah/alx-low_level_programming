@@ -18,6 +18,7 @@ int main(void)
 		putchar(upper);
 		return (0);
 	}
+	char lower;
 	for (lower = 'A' ; lower <= 'Z' ; lower++)
 	{	
 		putchar(lower);
