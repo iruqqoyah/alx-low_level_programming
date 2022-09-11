@@ -22,6 +22,7 @@ int main(void)
 	{	
 		putchar(lower);
 		putchar('\n');
+		return (0);
 	}
 		return (0);
 }
