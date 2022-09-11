@@ -6,12 +6,12 @@
 
 #include <stdio.h>
 
-/** 
+/**
  * main - entry point
  *
  *
  *
- * Description: hello world
+ *
  *
  * Return: 1 if errors, otherwise return 0
  *
