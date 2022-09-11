@@ -15,14 +15,9 @@ int main(void)
 	char upper;
 	char lower;
 	for (upper = 'a' ; upper <= 'z' ; upper++)
-	{
 		putchar(upper);
-	}
 	for (lower = 'A' ; lower <= 'Z' ; lower++)
-	{	
 		putchar(lower);
 		putchar('\n');
-		return (0);
-	}
 		return (0);
 }
