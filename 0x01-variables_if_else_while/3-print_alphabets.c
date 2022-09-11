@@ -15,8 +15,8 @@ int main(void)
 	char upper;
 	for (upper = 'a' ; upper <= 'z' ; upper++)
 		putchar(upper);
-	for (upper = 'A' ; upper <= 'Z' ; upper++)
-		putchar(upper);
-		putchar('\n');
-		return (0);
+		for (upper = 'A' ; upper <= 'Z' ; upper++)
+			putchar(upper);
+			putchar('\n');
+			return (0);
 }
