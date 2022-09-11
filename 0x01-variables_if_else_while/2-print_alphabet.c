@@ -8,13 +8,13 @@
  * Return: return data
  */
 
-int main()
+int main(void)
 {
 	char alphabeth;
 
 	for (alphabeth = 'a' ; alphabeth <= 'z' ; alphabeth++)
 	{
-		putchar(alphabeth);
+		putchar(alphabeth\n);
 	}
 
 	return (0);
