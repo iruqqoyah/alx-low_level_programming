@@ -13,9 +13,9 @@ int main(void)
 {
 	char *ch = "_putchar";
 
-	while(*ch)
+	while (*ch)
 	{
-		putchar(*ch);
+		_putchar(*ch);
 		ch++;
 	}
 	_putchar('\n');
