@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -10,6 +11,7 @@
 
 int main(void)
 {
+	char _putchar(ch);
 	char ch = "_putchar";
 
 	while(ch)
