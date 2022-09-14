@@ -8,7 +8,7 @@
  * Return: 0 if no errors
  */
 
-int main (void)
+int main(void)
 {
 	printf("_putchar\n");
 	return (0);
