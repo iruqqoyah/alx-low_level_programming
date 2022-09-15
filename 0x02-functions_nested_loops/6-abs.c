@@ -5,7 +5,7 @@
  * Return: 0, otherwise 1
  */
 
-int _abs(int);
+int _abs(int)
 {
 
 	int n;
