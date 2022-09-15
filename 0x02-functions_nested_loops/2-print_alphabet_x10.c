@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * Print 10x alphabet
+ * Print 10x alphabet - prints alpbath 10 times 
  *
  * Return: 0
  */
