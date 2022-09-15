@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * Print 10x alphabet - prints alpbath 10 times 
+ * print_alphabet_x10 - prints alpbath 10 times
  *
- * Return: 0
+ * Return: x10 a-z
  */
 
 void print_alphabet_x10(void)
