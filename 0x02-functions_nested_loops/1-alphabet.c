@@ -1,7 +1,4 @@
-#include <stdio.h>
 #include "main.h"
-
-
 
 /**
  * main - check the code
@@ -15,7 +12,7 @@ void print_alphabeth(void)
 	int ch;
 	for(ch = 'a'; ch <= 'z'; ch++)
 	{
-	_putchar(ch);
+i		_putchar(ch);
 	}
 	_putchar('\n');
 }
