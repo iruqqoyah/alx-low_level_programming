@@ -2,9 +2,6 @@
 
 /**
  * times_table - prints the times table of an integer starting with zero
- * @x: x
- * @y: y
- * @product: p
  *  Return: Always 0.
  *
  */
