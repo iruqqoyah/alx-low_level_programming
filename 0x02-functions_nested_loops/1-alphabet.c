@@ -9,10 +9,10 @@
 
 void print_alphabeth(void)
 {
-	int ch;
+	char ch;
 	for(ch = 'a'; ch <= 'z'; ch++)
 	{
-i		_putchar(ch);
+		_putchar(ch);
 	}
 	_putchar('\n');
 }
