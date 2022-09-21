@@ -3,7 +3,6 @@
 /**
  * _strlen - lenght of string
  * @s: string
- * @count: count integer
  * Return 0: of no errors
  */
 
