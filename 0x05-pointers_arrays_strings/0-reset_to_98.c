@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - 98 reset
+ * reset_to_98 - updates a value
  * @n: n variable
  * Description: testing mic
  *
