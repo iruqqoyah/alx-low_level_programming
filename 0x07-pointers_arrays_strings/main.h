@@ -3,6 +3,7 @@
 
 char *_memset(char *s, char b, unsigned int n);
 char *_memcpy(chchar *src, unsigned int n);
+char *_strchr(chr c);
 
 
 

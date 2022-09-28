@@ -1,18 +1,17 @@
 include "main.h"
 
 /**
+ * _memset - fills memory with a constant byte,
  *
- *  * _memset - fills memory with a constant byte,
+ * @s: memory area.
  *
- *   * @s: memory area.
+ * @b: constant byte.
  *
- *    * @b: constant byte.
+ * @n: bytes filled.
  *
- *     * @n: bytes filled.
+ * Return: the pointer to dest.
  *
- *      * Return: the pointer to dest.
- *
- *       */
+ */
 
 char *_memset(char *s, char b, unsigned int n)
 

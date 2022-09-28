@@ -3,14 +3,12 @@
 
 
 /**
+ * _memcpy - Entry point
+ * @dest* @src: @n: input
  *
- *  * _memcpy - Entry point
+ * Return: Always 0 (Success)
  *
- *   * @dest* @src: @n: input
- *
- *    * Return: Always 0 (Success)
- *
- *     */
+ */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 
