@@ -21,7 +21,8 @@ int _pow_recursion(int x, int y)
 
 	else
 	{
-		return (_pow_recursion(x, y));
+		int fact = _pow_recursion(x, y);
+		return fact;
 	}
 
 	return (0);
