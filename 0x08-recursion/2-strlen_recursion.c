@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-
+#include <string.h>
 /**
  * _strlen_recursion - Entry point
  *
@@ -13,7 +13,7 @@ int _strlen_recursion(char *s)
 {
 	if (*s != '\0')
 	{
-		printf("%d", strlen(s);
+		printf("%d", strlen(s));
 	}
 	return 0;
 }
