@@ -13,7 +13,7 @@ int _strlen_recursion(char *s)
 {
 	if (*s != '\0')
 	{
-		printf("%zu", strlen(s));
+		printf("%ld", strlen(s));
 	}
 	return 0;
 }
