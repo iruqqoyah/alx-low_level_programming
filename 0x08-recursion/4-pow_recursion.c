@@ -21,6 +21,6 @@ int _pow_recursion(int x, int y)
 
 	else
 	{
-		return pow_recursion(x,y);
+		return _pow_recursion(x,y);
 	}
 }
