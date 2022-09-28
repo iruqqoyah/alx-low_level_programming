@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 
+int squareroot(int n, int i);
 /**
  * _sqrt_recursion - entry point
  * @n: integer num
