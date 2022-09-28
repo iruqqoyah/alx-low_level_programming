@@ -23,7 +23,7 @@ int factorial(int n)
 
 	else if (n > 0)
 	{
-		int fact =  factorial(n);
+		int fact = n * factorial(n - 1);
 		return (fact);
 }
 	return (0);
