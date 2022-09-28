@@ -1,20 +1,18 @@
-include "main.h"
+#include "main.h"
+
+
 
 /**
  *
- *  * _memset - fills memory with a constant byte,
+ *  * _memcpy - Entry point
  *
- *   * @s: memory area.
+ *   * @dest* @src: @n: input
  *
- *    * @b: constant byte.
+ *    * Return: Always 0 (Success)
  *
- *     * @n: bytes filled.
- *
- *      * Return: the pointer to dest.
- *
- *       */
+ *     */
 
-char *_memset(char *s, char b, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 
 {
 
@@ -24,10 +22,10 @@ char *_memset(char *s, char b, unsigned int n)
 
 	for (i = 0; i < n; i++)
 
-		*(s + i) =  b;
+		dest[i] = src[i];
 
 
 
-	return (s);
+	return (dest);
 
 }
