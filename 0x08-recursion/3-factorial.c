@@ -22,5 +22,5 @@ int factorial(int n)
 	}
 
 	else
-		return (factorial s * (s-1));
+		return (factorial n * (n - 1));
 }
