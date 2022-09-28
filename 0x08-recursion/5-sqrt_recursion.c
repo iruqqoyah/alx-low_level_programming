@@ -12,7 +12,7 @@ int _sqrt_recursion(int n)
 {
 	if (n > 0)
 	{
-		return (squareroot(nc, (n + 1) / 2));
+		return (squareroot(n, (n + 1) / 2));
 	}
 	else
 		return (-1);
