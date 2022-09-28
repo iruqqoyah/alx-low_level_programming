@@ -21,9 +21,10 @@ int factorial(int n)
 		return (1);
 	}
 
-	else
+	else if (n > 0)
 	{
-		int fact =  factorial (n * (n - 1));
+		int fact =  factorial(n * (n - 1));
 		return (fact);
 }
+	return (0);
 }
