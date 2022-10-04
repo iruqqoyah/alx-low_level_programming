@@ -10,15 +10,21 @@
 
 int main(int argc, char *argv[])
 {
-	int i, sum = 0;
+	int i, j, sum = 0;
 
 	if (argc < 2)
 	{
 		printf("0\n");
 	}
+	
 	for (i = 0; i < argc; i++)
 	{
-	sum += atoi(argv[i]);
+		if (!atoi(argv[i]))
+		{
+			printf("Error\n");
+			return (1);
+		}
+		sum += atoi(argv[i]);
 	}
 	printf("The addition is %d\n", sum);
 	return (0);
