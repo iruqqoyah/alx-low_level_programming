@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - entry point
@@ -9,18 +10,15 @@
 
 int main(int argc, char *argv[] __attribute__((unused)))
 {
-	int i, mul = 1;
 
-	if (argc > 3)
+	if (argc = 3)
 	{
-		for ( i = 0; i < argc; i++)
-		{
-			printf("mul is %d", mul);
-			mul =  mul * atoi(argv[i]);
-		}
+			printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+			return (0);
 	}
 	else
+	{
 		printf("Error\n");
-	return (0);
-
+		return (1);
+	}
 }
