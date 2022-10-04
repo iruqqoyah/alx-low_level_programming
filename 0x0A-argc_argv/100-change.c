@@ -1,10 +1,9 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
  * main - entry point
  * @argc: count element
  * @argv: array of argc
- * @cents: cents
  * Return: 0
  */
 
