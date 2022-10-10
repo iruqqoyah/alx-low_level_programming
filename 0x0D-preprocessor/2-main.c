@@ -2,5 +2,5 @@
 
 int main()
 {
-	printf("Filename : %s\n", __FILE__);
+	printf("%s\n", __FILE__);
 }
