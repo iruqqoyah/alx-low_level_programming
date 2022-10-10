@@ -1,3 +1,3 @@
 #include <stdio.h>
 
-#define ABS(X) 
+#define ABS(x) x 
