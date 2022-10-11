@@ -6,11 +6,12 @@
  * @name: name of dog
  * @age: age of dog
  * @owner: owner of dog
+ * Return: no return
  */
 
 void int_dog(struct dog *d, char *name, float age, char *ownner)
 {
-	if(d != NULL)
+	if(d)
 	{
 		d->name = name;
 		d->age = age;
