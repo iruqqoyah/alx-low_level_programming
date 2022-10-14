@@ -2,7 +2,8 @@
 
 /**
  * op_add - function for add
- *
+ * @a: first number
+ * @b: second number
  * Return: nothing
  */
 
