@@ -4,6 +4,7 @@
 /**
  * print_name - Entry point
  * @name: name of person
+ * @f: function pointer
  * Return: Nothing
  */
 
