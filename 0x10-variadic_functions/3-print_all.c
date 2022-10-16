@@ -35,10 +35,10 @@ void print_all(const char * const format, ...)
 				printf("%s%f", separator, va_arg(ap, double));
 				break;
 			case 's':
-				str = va_arg(ap, char *)
+				str = va_arg(ap, char *);
 				if (str == NULL)
 					str = "(nil)";
-				printf("%s%s", separator, s);
+				printf("%s%s", separator, str);
 				break;
 			default:
 				i++;
