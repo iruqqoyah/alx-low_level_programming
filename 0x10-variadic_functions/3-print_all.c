@@ -9,7 +9,7 @@
 
 void print_all(const char * const format, ...)
 {
-	int i = 0;
+	unsigned int i;
 
 	va_list ap;
 
@@ -19,6 +19,8 @@ void print_all(const char * const format, ...)
 
 	separator = "";
 	
+	i = 0;
+
 	while (format && format[i])
 	{
 		switch (format[i])
@@ -37,6 +39,7 @@ void print_all(const char * const format, ...)
 				if (str == NULL)
 					str = "(nil)";
 				printf("%s%s", separator, s);
+				break;
 			default:
 				i++;
 				continue;
